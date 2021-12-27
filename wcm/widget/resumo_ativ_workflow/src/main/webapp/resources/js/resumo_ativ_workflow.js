@@ -88,11 +88,11 @@ var MyWidget = SuperWidget.extend({
 		    },
 		    fail: function (xhr, message, errorData) {
 		    	FLUIGC.toast({
-    		        title: '',
-    		        message: 'Erro ao salvar preferencias.',
-    		        type: 'error'
-    		    });
-		    }
+					        title: '',
+					        message: 'Erro ao salvar preferencias.',
+					        type: 'danger'
+					    });
+					}
 		}, this.instanceId, preferences);
     },
     
